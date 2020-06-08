@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/drawer_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true" tools:openDrawer="start"
+    android:background="@drawable/background">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="0dp">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbarDonation"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:titleTextColor="@android:color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="Amount:"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:gravity="center"
+                android:hint="Enter Donation Amount" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/donate_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:background="@color/colorPrimary"
+                android:text="DONATE"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView android:id="@+id/nav_view"
+        android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:layout_gravity="start" android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main" app:menu="@menu/activity_main_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

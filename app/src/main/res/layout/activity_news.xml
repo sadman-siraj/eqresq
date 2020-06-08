@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/drawer_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true" tools:openDrawer="start"
+    android:background="@drawable/background">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbarNews"
+        android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:titleTextColor="@android:color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_weight="0.24">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Recent Earthqaukes"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/textView3" />
+
+
+    <LinearLayout
+        android:id="@+id/newsOne"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginTop="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:alpha="0.8"
+        android:elevation="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/news_one_heading"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/news_one_event"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/newsTwo"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginTop="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:alpha="0.8"
+        android:elevation="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/news_two_heading"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/news_two_event"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/newsThree"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginTop="298dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:alpha="0.8"
+        android:elevation="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/news_three_heading"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/news_three_event"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+    <android.support.design.widget.NavigationView android:id="@+id/nav_view"
+        android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:layout_gravity="start" android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main" app:menu="@menu/activity_main_drawer" />
+
+    </android.support.v4.widget.DrawerLayout>

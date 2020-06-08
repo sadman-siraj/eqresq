@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_us" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="General Precautions" />
+        <item android:id="@+id/nav_world" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="How Many Lives You Saved" />
+        <item android:id="@+id/nav_tech" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="More News" />
+        <item android:id="@+id/nav_sports" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="App Features" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/btn_star"
+                android:title="Our Team" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>

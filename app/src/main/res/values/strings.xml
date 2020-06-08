@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EQ-RESQ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="news_one_heading">Heading</string>
+    <string name="news_two_heading">Heading</string>
+    <string name="news_three_heading">Heading</string>
+
+    <string name="news_one_event">Description</string>
+    <string name="news_two_event">Description</string>
+    <string name="news_three_event">Description</string>
+
+    <string name="precautions">(1) Stop driving.
+\n*With a firm grip on the steering wheel, gradually reduce your speed, pull over to the left side of the road, and shut off the engine.
+\n*Until the tremors subside, calmly assess your surroundings and use your car radio to stay informed.
+\n*If you need to take shelter, leave your key in the ignition and the door unlocked.
+\n*Taking your vehicle inspection papers and other important belongings with you, head for a shelter on foot.\n\n(2) On the Road
+\n*Don’t just stand there. Use a bag or something else to protect your head from falling objects such as glass and building signs, and seek shelter in an open area or park.
+\n*Don’t get too close to cinder block walls or vending machines.
+\n*Watch out for telephone poles that are about to fall over and dangling power lines.
+\n*If there is no open space nearby, calmly assess your surroundings and move somewhere with a high degree of safety, away from buildings.\n\n(3) Near the Shore
+\n*If you feel tremors, immediately seek the safety of high ground.
+\n*Stay away from the shore until all tsunami alerts and warnings are lifted.\n\n(4) On the Train
+\n*Grip the railing or hand strap tightly.
+\n*Even if the train stops between stations, do not exit the train on your own through a window or door using the emergency door override.
+\n*Calmly follow the instructions given to you by the conductors.\n\n(5)Indoor
+\n*Immediately seek a safe location such as in a doorway (if you live in an old, adobe house that is not reinforced), beneath a table or desk, or along an interior wall away from windows or hazardous objects.
+\n*Cover the back of your head and your eyes to minimize injury from flying debris.
+\n*Do not take elevators during an earthquake.
+\n*If cooking, turn off heating elements immediately.
+\n*Stay calm and brace yourself to keep your balance, sitting if possible.\n</string>
+
+
+</resources>

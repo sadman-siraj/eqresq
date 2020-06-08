@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donation Page"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/rCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Receiver Country"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which Earthquake Event?"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/spinner1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/myCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Country?"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_above="@+id/amount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="29dp" />
+
+
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/showInfo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/number"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="21dp"-->
+        <!--android:text="Show" />-->
+
+
+</RelativeLayout>
